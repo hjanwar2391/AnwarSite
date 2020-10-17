@@ -1,0 +1,17 @@
+.header-container {
+    height:800px;
+    position:relative;
+    background-color: tomato;
+    background-size: cover;
+   
+}
+/* .header-container::after {
+    height:700px;
+    content:' ';
+    position: absolute;
+    top: 0;
+    width: 60%;
+    right: 0;
+    background-image:url('../../../images/logos/Frame.png');
+    z-index: -5;
+} */
