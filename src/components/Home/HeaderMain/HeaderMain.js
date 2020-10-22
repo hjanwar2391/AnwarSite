@@ -9,9 +9,9 @@ const HeaderMain = () => {
     return (
         <main style={{height:'600px'}} className="row d-flex align-items-center">
             <div className="col-md-4 col-sm-6 col-12 offset-md-1">
-                <h1 style={{color: '#3A4256'}}>Your New Smile <br/> Starts Here</h1>
-                <p className="text-secondary">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore eveniet necessitatibus et iusto corrupti minima.</p>
-                <Link to="/appointment" className="btn btn-brand">GET APPOINTMENT</Link>
+                <h1 style={{color: '#3A4256'}}>Hello <br/> I am Aanwa</h1>
+                <p className=" text-white"> I am a full-stack Web Application Developer and Software Developer, currently living in Dhaka, Bangladesh. My primary focus and inspiration for my studies is Web Development. In my free time, I study human computer interface and the psychology of human computer interaction. I am both driven and self-motivated, and I am constantly experimenting with new technologies and techniques. I am very passionate about Web Development, and strive to better myself as a developer, and the development community as a whole.</p>
+                <Link to="/" className="btn btn-brand">HIRE ME</Link>
             </div>
             <div className="col-md-6 col-sm-6 col-12">
                 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">

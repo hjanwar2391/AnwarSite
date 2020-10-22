@@ -1,26 +1,28 @@
 import React from 'react';
-import Doctor from '../Doctor/Doctor';
-import html from '../../../images/MySkills/html.png';
-import css from '../../../images/MySkills/css.png';
-import bootstrap from '../../../images/MySkills/bootstrap.png';
-import javascript from '../../../images/MySkills/js.png';
-import firebase from '../../../images/MySkills/firebase.png';
-import react from '../../../images/MySkills/react.png';
-import node from '../../../images/MySkills/node.png';
-import heroku from '../../../images/MySkills/heroku.png';
-import redux from '../../../images/MySkills/redux.png';
-import UL from '../../../images/MySkills/UL.png';
-import mongodb from '../../../images/MySkills/mongodb.png';
+import MyWorks from '../MyWorks/MyWorks';
+import html from '../../images/myWork/creativ agency.png';
+import doctors from '../../images/myWork/doctors.png';
+import bootstrap from '../../images/MySkills/bootstrap.png';
+import javascript from '../../images/MySkills/js.png';
+import firebase from '../../images/MySkills/firebase.png';
+import react from '../../images/MySkills/react.png';
+import node from '../../images/MySkills/node.png';
+import heroku from '../../images/MySkills/heroku.png';
+import redux from '../../images/MySkills/redux.png';
+import UL from '../../images/MySkills/UL.png';
+import mongodb from '../../images/MySkills/mongodb.png';
 
-const serviceData = [
+
+const mySkills = [
     {
-        name: 'HTML',
+        name: 'Creative Agency',
         img: html,
-        title:"HTML is the standard markup language for Web pages. With HTML you can create your own Website."
+        title:"HTML is the standard markup language for Web pages. With HTML you can create your own Website.",
+        link: "https://www.fiverr.com/users/hjanwar/manage_gigs/be-your-react-developer/edit?wizard=1"
     },
     {
-        name: 'CSS',
-        img: css,
+        name: 'Doctors Portal',
+        img: doctors,
         title: "CSS is the language we use to style an HTML document. CSS describes how HTML elements should..."
     },
     {
@@ -70,21 +72,22 @@ const serviceData = [
     }
 ]
 
-
-const Doctors = () => {
-
+const MyWork = () => {
     return (
-        <div className="container text-center " style={{ marginTop: '50px', marginBottom: '50px' }}>
-        <h1 className="mb-5">MY  <span style={{ color: '#7AB259' }}>Skills</span></h1>
+        <div>
+            <div className="container text-center " style={{ marginTop: '50px', marginBottom: '50px' }}>
+        <h1 className="mb-5">MY  <span style={{ color: '#7AB259' }}>Work</span></h1>
         
         <div className="row  w-60">
                     {
-                        serviceData.map(service => <Doctor service={service} key={service.name}></Doctor>)
+                        mySkills.map(mySkills => <MyWorks mySkills={mySkills} key={mySkills.name}></MyWorks>)
                     }
                     
                 </div>
             </div>
+            
+        </div>
     );
 };
 
-export default Doctors;
+export default MyWork;
