@@ -11,6 +11,7 @@ import heroku from '../../../images/MySkills/heroku.png';
 import redux from '../../../images/MySkills/redux.png';
 import UL from '../../../images/MySkills/UL.png';
 import mongodb from '../../../images/MySkills/mongodb.png';
+import sass from '../../../images/MySkills/sass.png';
 
 const serviceData = [
     {
@@ -32,6 +33,11 @@ const serviceData = [
         name: 'Bootstrap',
         img: bootstrap,
         title: "Bootstrap is the most popular CSS Framework for developing responsive and mobile-first websites."
+    },
+    {
+        name: 'SASS',
+        img: sass,
+        title: "Sass is a CSS pre-processor. Sass reduces repetition of CSS and therefore saves time."
     },
     {
         name: 'React Js',

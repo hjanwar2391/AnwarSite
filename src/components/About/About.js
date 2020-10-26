@@ -11,7 +11,6 @@ const About = () => {
             <br/>
             <h1>Experience</h1>
                 <p> I have been working with responsive design integration, and have experimented with several responsive techniques and tools. I have worked with Twitter Bootstrap, although I prefer to add responsive support manually, whenever possible. I am a very big fan of using media queries on my sites and I strive to design layouts that can easily be optimized for aesthetic appeal on each of desktops, tablets and cell phones. This site uses a responsive design, and I have completed responsive integration throughout most of the site.</p>
-        
         </div>
     );
 };
